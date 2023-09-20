@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import myResume from "../assets/Resume-Beqa-Nazarashvili.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -30,7 +31,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: myResume,
       style: "rounded-br-md",
       download: true,
     },

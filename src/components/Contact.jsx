@@ -26,7 +26,7 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              className=" p-2 mb-3 bg-transparent bg-gray-400 rounded-md text-white focus:outline-none"
+              className=" p-2 mb-3 bg-transparent bg-gray-600 rounded-md text-white focus:outline-none"
             />
 
             <label htmlFor="" className=" my-2 text-gray-400">
@@ -35,7 +35,7 @@ const Contact = () => {
             <input
               type="text"
               name="email"
-              className=" p-2 mb-10 bg-transparent bg-gray-400 rounded-md text-white focus:outline-none"
+              className=" p-2 mb-10 bg-transparent bg-gray-600 rounded-md text-white focus:outline-none"
             />
             <label htmlFor="" className=" mb-2 text-gray-400">
               Message
@@ -43,10 +43,10 @@ const Contact = () => {
             <textarea
               name="message"
               rows="10"
-              className=" p-2 bg-transparent bg-gray-400 rounded-md text-white focus:outline-none"
+              className=" p-2 bg-transparent bg-gray-600 rounded-md text-white focus:outline-none"
             ></textarea>
 
-            <button className=" text-white bg-gradient-to-b from-indigo-700 to-cyan-600 px-6 py-3 my-5 mx-auto flex items-center justify-center rounded-md hover:scale-105 duration-300 w-full ">
+            <button className=" text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-5 mx-auto flex items-center justify-center rounded-md hover:scale-105 duration-300 w-full ">
               Let's Talk
             </button>
           </form>
