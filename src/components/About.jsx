@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <p className=" text-xl mt-20">
-          Hello. I am Beqa, 25 years old. I am a self-taught , An enthusiastic
+          Hello. I am Beqca, 25 years old. I am a self-taught , An enthusiastic
           and detail-oriented Junior Frontend Developer with proficient
           knowledge in HTML, CSS, and JAVASCRIPT, as well as third-party
           libraries such as React. I will try utilize my technical skills and
