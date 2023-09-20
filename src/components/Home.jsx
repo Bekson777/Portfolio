@@ -1,7 +1,6 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import myimg from "../assets/programer.png";
 import Myimg from "../assets/IMG_9176.jpeg";
 
 function Home() {
@@ -20,7 +19,6 @@ function Home() {
             time was devoted in Javascript but i worked on technologies like
             React, RESTful APIs, TailwindCSS, responsive web design principles.
           </p>
-
           <div>
             <Link
               to="portfolio"
@@ -34,9 +32,11 @@ function Home() {
               </span>
             </Link>
           </div>
+          c
         </div>
         <div>
           <img
+            alt="my"
             src={Myimg}
             className=" mx-auto md:w-full rounded-full  w-full"
           />

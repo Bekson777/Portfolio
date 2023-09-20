@@ -1,20 +1,10 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
-    // {
-    //   id: 1,
-    //   child: (
-    //     <>
-    //       LinkedIn <FaLinkedin size={30} />
-    //     </>
-    //   ),
-    //   href: "https://linkedin.com",
-    //   style: "rounded-tr-md",
-    // },
     {
       id: 1,
       child: (
