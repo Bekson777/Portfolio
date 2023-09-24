@@ -30,7 +30,7 @@ const Experience = () => {
     {
       id: 4,
       src: Reactt,
-      title: "HTML",
+      title: "Reaqct",
       style: "shadow-blue-400",
     },
     {
@@ -42,7 +42,7 @@ const Experience = () => {
     {
       id: 5,
       src: Tailwind,
-      title: "Tailwind",
+      title: "Tailwind CSS",
       style: "shadow-sky-500",
     },
     {
