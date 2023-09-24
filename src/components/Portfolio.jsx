@@ -60,7 +60,7 @@ const Portfolio = () => {
           <p className=" text-4xl border-b-4 font-bold inline border-gray-500">
             Projects
           </p>
-          <p className=" py-6">chek mys sdasd asdads</p>
+          <p className=" py-6">These are the projects I have worked on</p>
         </div>
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, demo, git }) => (
