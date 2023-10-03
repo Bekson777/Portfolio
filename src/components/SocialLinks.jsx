@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import myResume from "../assets/Resume-Beqa-Nazarashvili.pdf";
+import myResume from "../assets/resume-beqa-nazarashvili.pdf";
 
 const SocialLinks = () => {
   const links = [
