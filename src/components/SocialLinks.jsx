@@ -1,8 +1,6 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import myResume from "../assets/resume-beqa-nazarashvili.pdf";
 
 const SocialLinks = () => {
   const links = [
@@ -13,7 +11,8 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com",
+      href: "https://github.com/Bekson777",
+      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -28,19 +27,18 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: myResume,
+      href: "https://www.linkedin.com/in/beqa-nazarashvili-019983235/",
       style: "rounded-br-md",
-      download: true,
     },
   ];
 
   return (
     <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed ">
       <ul className=" cursor-pointer">
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style }) => (
           <li
             key={id}
             className={
@@ -52,7 +50,6 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-white "
-              download={download}
               target="_blank"
               rel="noreferrer"
             >
